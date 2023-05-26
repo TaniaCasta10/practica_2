@@ -1,40 +1,33 @@
-*
-
-{
+*{
     padding: 0px;
     margin: 0px;
 }
-
-.grid-layout {
+.container{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     height:max-content;
     
   }
-  
-  .item {
+  .VERDE{
  
     background-color: green;
     background-color: var(--color);
     height: 100vh;
-    
   }
-  
-   .blanco
-  {
+   .BLANCO{
     display: grid;
-grid-template-rows:1fr 1fr 1fr;
-background-color: white;
-justify-content: center;
-align-items: center;
-
+    grid-template-rows:1fr 1fr 1fr;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
   }
- 
-  .item2 {
+  .BLANCO img{
+    width: 250px;
+  }
+  .ROJO{
    
-    background-color: green;
-    background-color: var(--color);
-    height:33vh;
+    background-color:red;
+    height:100vh;
   }
   
  
