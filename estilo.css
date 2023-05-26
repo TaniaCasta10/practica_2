@@ -1,0 +1,40 @@
+*
+
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    height:max-content;
+    
+  }
+  
+  .item {
+ 
+    background-color: green;
+    background-color: var(--color);
+    height: 100vh;
+    
+  }
+  
+   .blanco
+  {
+    display: grid;
+grid-template-rows:1fr 1fr 1fr;
+background-color: white;
+justify-content: center;
+align-items: center;
+
+  }
+ 
+  .item2 {
+   
+    background-color: green;
+    background-color: var(--color);
+    height:33vh;
+  }
+  
+ 
